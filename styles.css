@@ -3,9 +3,8 @@
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    padding: 0 240px;
+    padding: 0 507px;
     background-color: #1f2937;
-    
 }
 .headerlogo{
     color: #f9faf8;
@@ -23,17 +22,67 @@ ul{
 .hero{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 80px;
+    background-color: #1f2937;
 }
 .heroone{
     width: 400px;
+    
 }
 .heromaintext{
+    color: #f9faf8;
     font-size: 48px;
+    margin-bottom: 8px;
 }
 .herosecondarytext{
+    color: #e5e7eb;
     font-size: 18px;
+    margin-bottom: 5px;
 }
-img{
+button{
+    padding: 6px 30px;
+    border: none;
+    background-color: #3882f6;
+    margin-bottom: 6px;
+}
+.cookie{
+    height: 213px;
     width: 400px;
 }
+.information{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+.images{
+    border-radius: 20px;
+    border: 2px solid #3882f6;
+    width: 180px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  .info {
+    max-width: 200px;
+  }
+  .quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    justify-content: center;
+  }
+  .mainquote{
+    padding: 50px 468px 25px;
+  }
+  .signature{
+    padding-left: 30em;
+    padding-bottom: 50px;
+  }
