@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    padding: 0 507px;
+    padding: 0 500px;
     background-color: #1f2937;
 }
 .headerlogo{
@@ -40,6 +40,7 @@ ul{
     margin-bottom: 5px;
 }
 button{
+    border-radius: 5px;
     padding: 6px 30px;
     border: none;
     background-color: #3882f6;
@@ -85,4 +86,29 @@ button{
   .signature{
     padding-left: 30em;
     padding-bottom: 50px;
+  }
+  .white{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .blue{
+    border-radius: 8px;
+    padding: 70px 180px;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    background-color: #3882f6;
+  }
+  .sbutton{
+    border: 2px solid #f9faf8;
+    border-radius: 4px;
+  }
+  .action{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+  }
+  .signuptext{
+    color: #f9faf8;
   }
